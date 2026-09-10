@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "A multi-loader Minecraft mod.",
+  "authors": ["YOUR_NAME"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.examplemod.fabric.ExampleModFabric"],
+    "client": ["com.example.examplemod.fabric.ExampleModFabricClient"],
+    "fabric-datagen": ["com.example.examplemod.fabric.ExampleModDataGenerator"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
+
