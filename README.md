@@ -1,7 +1,6 @@
 # Fabric + NeoForge Mod Template
 
-A minimal multi-loader Minecraft mod workspace based on the structure used by
-Endernium. Shared Java code and resources live in `common`; each loader owns its
+A minimal multi-loader Minecraft mod workspace. Shared Java code and resources live in `common`; each loader owns its
 bootstrap code, build configuration, metadata, and generated resources.
 
 ## Requirements
